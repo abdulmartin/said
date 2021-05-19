@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.pesor{
+			color: blue;
+			font-size: 30px;
+			font-family: verdana;
+		}
+		body{
+			text-align:left;
+			background-color: grey;
+		}
+		label{
+			border: none;
+		}
+		td{
+			  border-left: 2px solid lightblue;
+		}
+		*{
+			box-sizing: border-box;
+			margin: 10px;
+			padding: px;
+		}
+		.profile{
+			width: 400px;
+			clip-path: circle();
+		}
+	</style>
+
+</head>
+<body>
+	<script>
+		var c=document.getElementById("mycava");
+		var catx=c.getContext("2d");
+		catx.beginPath();
+		catx.arc(100,75,50,0,2* Math.PI);
+		catx.stroke();
+	</script>
+	<marquee><p style="background-color: grey; height: 50px; width: 1500px; color: purple;" >EDUCATIONAL BACKGROUND </p></marquee>
+	<img src="pic.png" style="height: 150px; width: 150px;" class="profile">
+	<table>
+		<tr>
+			<th>SURNAME: Said</th><br><br>
+			<th>FIRSTNAME: Abdul</th><br>
+			<th>MIDDLE NAME: Martin</th>
+		</tr>
+
+		<tr>
+		
+			<th>SEX</th>
+			<th>MARRITAL STATUS</th>
+			<th>NATIONALITY</th>
+			<th>HOME ADDRESS</th>
+			<th>TELEPHONE NUMBER</th>
+		</tr>
+
+		<tr>
+			<td>Male</td>
+			<td>Single</td>
+			<td>Tanzania</td>
+			<td>P.O.BOX 632-MWANZA</td>
+			<td>32443 FAX 24462</td>
+		</tr>
+	</table>
+
+     <h3>EDUCATIONAL BACKGROUND</h3>
+     <table>
+     	<tr>
+     		<th>Yaer</th>
+     		<th>Education</th>
+     		<th>Qualification</th>
+     	</tr>
+     	<tr>
+     		<td>2021-2023</td>
+     		<td>Harvar university</td>
+     		<td>Masters Of information Security</td>
+     	</tr>
+     	<tr>
+     		<td>2018-2021</td>
+     		<td>Makumira University Arusha</td>
+     		<td>Bachelor of Laws</td>
+     	</tr>
+
+     	<tr>
+     		<td>2015-2018</td>
+     		<td>Mwanza Secondary & High School</td>
+     		<td>Advanced level certificate</td>
+     	</tr>
+
+     	<tr>
+     		<td>2010-2014</td>
+     		<td>Pamba Secondary School</td>
+     		<td>Secondary certificate</td>
+     	</tr>
+
+     	<tr>
+     		<td>2003-2010</td>
+     		<td>Mkonze Primary school</td>
+     		<td>Primary level certificate</td>
+     	</tr>
+     </table>
+
+     <h3>PROFESIONAL QUALIFICATION</h3>
+     <table>
+     	<td>2019-2020</td>
+     	<td>Institute of Accountancy Arusha</td>
+     	<td>Diploma in Accountancy</td>
+     </table>
+         <h3>WORK EXPERIENCE</h3>
+     <table>
+     	<td>2018-2019</td>
+     	<td>Mathematics teacher at Mandela Secondary & High school</td>
+     </table>
+</body>
+</html>
